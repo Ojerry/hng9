@@ -1,0 +1,86 @@
+@import"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap";
+
+.lg-btn {
+    background-color: #eaecf0;
+    color: #101828;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    margin: 20px 100px;
+    text-align: center;
+    justify-content: center;
+    font-family: Inter
+}
+
+.lg-btn:hover {
+    background-color: #6a6c6d
+}
+
+.slacker {
+    width: 30px;
+    display: inline;
+    padding: 20px;
+    justify-content: center;
+    align-items: center
+}
+
+.github {
+    width: 30px;
+    display: inline;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center
+}
+
+.center-logo {
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+#profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 64px auto 20px
+}
+
+.name {
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 56px;
+    font-family: Inter
+}
+
+.hide {
+    display: none
+}
+
+.zuri {
+    display: inline;
+    margin-right: 100px
+}
+
+.desc {
+    display: inline;
+    font-size: 14px;
+    font-family: Inter;
+    color: #667085;
+    margin-right: 100px
+}
+
+.ingress {
+    display: inline;
+    width: 100px
+}
+
+.center-footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    padding-bottom: 50px
+}
