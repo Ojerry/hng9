@@ -1,5 +1,20 @@
 @import"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap";
 
+.profile-img-container{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 64px auto 20px;
+}
+.profile-img {
+    width: 100%;
+    height: auto;
+}
 .lg-btn {
     background-color: #eaecf0;
     color: #101828;
@@ -10,42 +25,81 @@
     margin: 20px 100px;
     text-align: center;
     justify-content: center;
-    font-family: Inter
+    font-family: Inter;
 }
 
 .lg-btn:hover {
     background-color: #6a6c6d
 }
-
-.slacker {
-    width: 30px;
-    display: inline;
-    padding: 20px;
-    justify-content: center;
-    align-items: center
-}
-
-.github {
-    width: 30px;
-    display: inline;
-    padding: 20px 0;
-    justify-content: center;
-    align-items: center
-}
-
-.center-logo {
-    justify-content: center;
-    align-items: center;
-    text-align: center
-}
-
-#profile-pic {
-    width: 100px;
-    border-radius: 50%;
+.blw-btn-img{
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin: 64px auto 20px
+    align-items: center;  
 }
+.slacklogo {
+    width: 60px;
+    padding: 10px 15px 10px;
+}
+
+.githublogo {
+    width: 30px;
+}
+
+hr{
+    width: 80vw;
+    margin: 50px auto 30px;
+    opacity: 0.25;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+footer img{
+    width: 170px;
+    max-width: 100%;
+    height: auto;
+}
+footer p{
+    height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #667085;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+
+@media (max-width: 700px){
+    .lg-btn{
+        margin: 20px 35px;
+    }
+    hr{
+        width: 85vw;
+    }
+    footer{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    footer img{
+        padding: 15px 0px 10px;
+    }
+    footer p{
+        padding-left: 10px;
+    }
+}
+
+
+
+
+
+
+
 
 .name {
     font-weight: 800;
