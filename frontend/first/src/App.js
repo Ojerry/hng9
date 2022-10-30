@@ -19,12 +19,12 @@ function App(){
         <p className='hide' id='slack' hidden>Ojerry</p>
       </div>
       <div>
-        <BodyBtn id="btn_zuri" className="lg-btn" target="_blank" href="https://twitter.com/" text="Twitter Link" />
+        <BodyBtn id="twitter" className="lg-btn" target="_blank" href="https://twitter.com/OnotuJU" text="Twitter Link" />
         <BodyBtn id="btn_zuri" className="lg-btn" target="_blank" href="https://training.zuri.team/" text="Zuri Team" />
-        <BodyBtn id="btn_zuri" className="lg-btn" target="_blank" href="https://books.zuri.team/" text="Zuri Books" />
-        <BodyBtn id="btn_zuri" className="lg-btn" target="_blank" href="https://books.zuri.team/python-for-beginners?ref_id=<Ojerry>" text="Python Books" />
-        <BodyBtn id="btn_zuri" className="lg-btn" target="_blank" href="https://background.zuri.team/" text="Background Check for Coders" />
-        <BodyBtn id="btn_zuri" className="lg-btn" target="_blank" href="https://books.zuri.team/design-rules" text="Design Books" />
+        <BodyBtn id="books" className="lg-btn" target="_blank" href="https://books.zuri.team/" text="Zuri Books" />
+        <BodyBtn id="book_python" className="lg-btn" target="_blank" href="https://books.zuri.team/python-for-beginners?ref_id=<Ojerry>" text="Python Books" />
+        <BodyBtn id="pitch" className="lg-btn" target="_blank" href="https://background.zuri.team/" text="Background Check for Coders" />
+        <BodyBtn id="book_design" className="lg-btn" target="_blank" href="https://books.zuri.team/design-rules" text="Design Books" />
       </div>
       <div className='blw-btn-img'>
         <a><img className='slacklogo' src={slack} /></a>

@@ -11,10 +11,20 @@
     border-radius: 50%;
     margin: 64px auto 20px;
 }
+
 .profile-img {
     width: 100%;
     height: auto;
 }
+
+.name {
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 56px;
+    font-family: Inter
+}
+
 .lg-btn {
     background-color: #eaecf0;
     color: #101828;
@@ -94,47 +104,3 @@ footer p{
     }
 }
 
-
-
-
-
-
-
-
-.name {
-    font-weight: 800;
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 56px;
-    font-family: Inter
-}
-
-.hide {
-    display: none
-}
-
-.zuri {
-    display: inline;
-    margin-right: 100px
-}
-
-.desc {
-    display: inline;
-    font-size: 14px;
-    font-family: Inter;
-    color: #667085;
-    margin-right: 100px
-}
-
-.ingress {
-    display: inline;
-    width: 100px
-}
-
-.center-footer {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 150px;
-    padding-bottom: 50px
-}
