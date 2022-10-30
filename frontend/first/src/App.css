@@ -41,12 +41,14 @@
 .lg-btn:hover {
     background-color: #6a6c6d
 }
+
 .blw-btn-img{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;  
 }
+
 .slacklogo {
     width: 60px;
     padding: 10px 15px 10px;
@@ -61,6 +63,7 @@ hr{
     margin: 50px auto 30px;
     opacity: 0.25;
 }
+
 footer{
     width: 100%;
     display: flex;
@@ -74,6 +77,7 @@ footer img{
     max-width: 100%;
     height: auto;
 }
+
 footer p{
     height: 24px;
     font-size: 18px;
@@ -83,7 +87,6 @@ footer p{
     font-family: Inter;
     font-size: 14px;
 }
-
 
 @media (max-width: 700px){
     .lg-btn{
@@ -97,10 +100,10 @@ footer p{
         align-items: flex-start;
     }
     footer img{
+        width: calc(2 * 65px);
         padding: 15px 0px 10px;
     }
     footer p{
         padding-left: 10px;
     }
 }
-
