@@ -5,6 +5,8 @@ import github from "./assets/githublogo.png";
 import ingressive from "./assets/Ingressive.jpg";
 import slack from "./assets/slack.png";
 import zuri from "./assets/zuri.jpg";
+import arrow from "./assets/arrow.png";
+import hamburg from "./assets/hamburg.png";
 
 
 
@@ -15,6 +17,8 @@ function App(){
       <div className='profile-img-container'>
          <img className='profile-img' src={pic} alt='my pic'/>
       </div>
+      <img src={arrow} className="arrow" />
+      <img src={hamburg} className="hamburg" />
        <p className='name'>Umoru Onotu Jerry</p>
         <p className='hide' id='slack' hidden>Ojerry</p>
       </div>
